@@ -1,0 +1,79 @@
+<div class="container">
+    <!-- Header -->
+    <div class="row">
+        <div class="col-md-12">
+            <header class="text-center offsetBottom">
+                <div class="icon close"><i class="fa fa-times"></i></div>
+                <h2 class="text-semibold" id="share-title">Project Style One</h2>
+            </header>
+        </div>
+    </div>
+    <!-- Short Description -->
+    <div class="row">
+        <div class="col-md-12 offsetBottom">
+            <p class="text-center">
+                You can have unlimited projects each with a different layout!<br>
+                We includes 5 styles &ndash; project with static images, image slider, video project and etc.
+            </p>
+        </div>
+    </div>
+    <!-- Images -->
+    <div class="row" id="share-image">
+        <div class="col-md-4 col-sm-4 col-xs-6 offsetBottom">
+            <img src="images/demo/projects/image-1.jpg" class="img-responsive img-rounded" alt="Project">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6 offsetBottom">
+            <img src="images/demo/projects/image-2.jpg" class="img-responsive img-rounded" alt="Project">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 offsetBottom">
+            <div class="offsetTop visible-xs"></div>
+            <img src="images/demo/projects/image-3.jpg" class="img-responsive img-rounded" alt="Project">
+        </div>
+    </div>
+    <!-- Description and Details -->
+    <div class="row">
+        <div class="col-md-8 col-sm-8">
+            <div class="offsetBottomS">
+                <h4>Nulla eget volutpat tortor, vel tincidunt erat</h4>
+            </div>
+            <p>
+                Aliquam at consequat ante. Curabitur ut dapibus lectus, id pretium magna. Fusce lobortis laoreet sodales. Consequat mollis ornare. Integer ullamcorper congue purus no iaculis. Nulla euismod masuada neque, vitae pellentesque sapien. Aliquam erat volutpat. Nam iaculis neque nec purus gravida molestie.
+            </p>
+            <p>
+                In tincidunt sed purus et sodales. Nunc sed augue ultricies, pulvinar justo non, placerat orci. Donec libero mi, lacinia eget sapien eu, aliquet auctor nulla. Aenean ultricies elit quis ultrices sodales. Ut eget augue at risus commodo euismod. In elementum erat non lectus congue, in consequat mi semper.
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <div class="offsetBottomS">
+                <h4>Details</h4>
+            </div>
+            <ul class="fa-ul details">
+                <li>
+                    <i class="fa-li fa fa-angle-right colored"></i>
+                    <strong>Client</strong>
+                    Company Inc.
+                </li>
+                <li>
+                    <i class="fa-li fa fa-angle-right colored"></i>
+                    <strong>Task</strong>
+                    Rebranding, Development
+                </li>
+                <li>
+                    <i class="fa-li fa fa-angle-right colored"></i>
+                    <strong>Website</strong>
+                    <a href="#">company.com</a>
+                </li>
+            </ul>
+            <!-- Share Panel -->
+            <div class="share-panel">
+                <span>Share</span>
+                <div class="social">
+                    <a title="Twitter" onclick="shareTo( 'twitter', '#share-title', '#share-image', '#view-' + $( '#portfolio-details' ).attr( 'data-current' ) )"><i class="fa fa-twitter"></i></a>
+                    <a title="Facebook" onclick="shareTo( 'facebook', '#share-title', '#share-image', '#view-' + $( '#portfolio-details' ).attr( 'data-current' ) )"><i class="fa fa-facebook"></i></a>
+                    <a title="Pinterest" onclick="shareTo( 'pinterest', '#share-title', '#share-image', '#view-' + $( '#portfolio-details' ).attr( 'data-current' ) )"><i class="fa fa-pinterest"></i></a>
+                    <a title="LinkedIn" onclick="shareTo( 'linkedin', '#share-title', '#share-image', '#view-' + $( '#portfolio-details' ).attr( 'data-current' ) )"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Alexander Axminenko">
+    <title>Prodo &ndash; Masonry Blog with Four Columns</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Modernizr -->
+    <script src="js/modernizr.custom.js"></script>
+    <!-- Theme Styles -->
+    <link href="css/plugins/font-awesome.min.css" rel="stylesheet">
+    <link href="css/plugins/isotope.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <link href="css/oldie.css" rel="stylesheet">
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="page-loader">
+        <div class="content">
+            <div class="line">
+                <div class="progress"></div>
+            </div>
+            <div class="text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar two navbar-fixed-top floating positive" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Menu for Tablets / Phones -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-dark-full.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <!-- Social Icons -->
+                <div class="social">
+                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                </div>
+                
+                <!-- Items -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#team">Team</a></li>
+                    <li class="dropdown active">
+                        <a>Extra</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="shortcodes.html">Shortcodes</a></li>
+                            <li><a href="404.html">404 Error Page</a></li>
+                            <li><a href="index.html#view-item-one">Portfolio &ndash; Item 1</a></li>
+                            <li><a href="index.html#view-item-two">Portfolio &ndash; Item 2</a></li>
+                            <li><a href="index.html#view-item-three">Portfolio &ndash; Item 3</a></li>
+                            <li><a href="index.html#view-item-four">Portfolio &ndash; Item 4</a></li>
+                            <li><a href="index.html#view-item-five">Portfolio &ndash; Item 5</a></li>
+                            <li><a href="blog-sidebar.html">Blog &ndash; Standard &ndash; Sidebar</a></li>
+                            <li><a href="blog-wide.html">Blog &ndash; Standard &ndash; Full Width</a></li>
+                            <li><a href="blog-masonry-4c.html">Blog &ndash; Masonry &ndash; 4C</a></li>
+                            <li><a href="blog-masonry-3c.html">Blog &ndash; Masonry &ndash; 3C</a></li>
+                            <li><a href="blog-masonry-2c.html">Blog &ndash; Masonry &ndash; 2C</a></li>
+                            <li><a href="post-sidebar.html">Single Post &ndash; Sidebar</a></li>
+                            <li><a href="post-wide.html">Single Post &ndash; Full Width</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="offsetTop"></div>
+
+    <!-- Primary Header -->
+    <section class="section alt-background offsetTop offsetBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <header class="text-center">
+                        <!-- Titles -->
+                        <h2>Masonry Blog</h2>
+                        <p class="info">
+                            You can use any of 2 styles &ndash; standard and masonry blog.<br>
+                            Also, available two variations &ndash; with or without sidebar.
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section offsetTopS offsetBottom">
+        <div class="container">
+            <div class="row">
+                <!-- Posts -->
+                <div class="col-md-12 col-sm-12 blog-masonry blog-masonry-four">
+                    <!-- Blog post with Image Slider -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with Image Slider</a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <div class="image-slider">
+                                <div>
+                                    <img src="images/demo/blog/slide-1.jpg" class="img-responsive img-rounded" alt="Image">
+                                </div>
+                                <div>
+                                    <img src="images/demo/blog/slide-2.jpg" class="img-responsive img-rounded" alt="Image">
+                                </div>
+                                <div class="arrows">
+                                    <a class="arrow left"><i class="fa fa-chevron-left"></i></a>
+                                    <a class="arrow right"><i class="fa fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada vel. Etiam accumsan placerat nisl ac rutrum. Quisque ac egestas nisi. Etiam sed consequat dolor.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog post with Text Only -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with Text Only</a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada vel. Etiam accumsan placerat nisl ac rutrum. Quisque ac egestas nisi. Etiam sed consequat dolor. In ultrices purus placerat massa.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog post with Embed Video -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with Embed Video
+                                    </a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <div class="video-responsive rounded">
+                                <iframe src="//player.vimeo.com/video/77128496" allowfullscreen></iframe>
+                            </div>
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada vel. Etiam accumsan placerat nisl ac rutrum. Quisque ac egestas nisi.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog post with One Image -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with One Image</a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <img src="images/demo/blog/image-2.jpg" class="img-responsive img-rounded" alt="Image">
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada vel. Etiam accumsan placerat nisl ac rutrum. Quisque ac egestas nisi. Etiam sed consequat dolor. In ultrices purus placerat massa.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog post with One Image -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with One Image</a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <img src="images/demo/blog/image-3.jpg" class="img-responsive img-rounded" alt="Image">
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada vel. Etiam accumsan placerat nisl ac rutrum. Quisque ac egestas nisi. Etiam sed consequat dolor. In ultrices purus placerat massa.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog post with Text Only -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with Text Only</a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada vel. Etiam accumsan placerat nisl ac rutrum. Quisque ac egestas nisi. Etiam sed consequat dolor. In ultrices purus placerat massa. Maecenas suscipit venenatis eros, at semper sapien malesuada.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog post with Embed Video -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with Embed Video
+                                    </a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <div class="video-responsive rounded">
+                                <iframe src="//www.youtube.com/embed/kn-1D5z3-Cs?rel=0&amp;wmode=transparent" allowfullscreen></iframe>
+                            </div>
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog post with One Image -->
+                    <article class="blog-post masonry offsetTopS offsetBottom">
+                        <div>
+                            <header>
+                                <h3>
+                                    <a href="post-sidebar.html">Blog post with One Image</a>
+                                </h3>
+                                <div class="info">
+                                    <span>Frances Doe</span>
+                                    <span><a href="#">Demonstration</a></span>
+                                </div>
+                            </header>
+                            <img src="images/demo/blog/image-1.jpg" class="img-responsive img-rounded" alt="Image">
+                            <p>
+                                Fusce non turpis enim. Vivamus accumsan nulla pulvinar, condimentum velit ullamcorper, lacinia ligula. Phasellus sed rhoncus nisl. Maecenas suscipit venenatis eros, at semper sapien malesuada.
+                            </p>
+                            <a href="post-sidebar.html" class="btn btn-default">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="row offsetTopS">
+                <div class="col-md-12 pages-navigation">
+                    <a href="#" class="pull-left">&lsaquo;&nbsp; Previous</a>
+                    <!-- <a href="#" class="pull-right">Next &nbsp;&rsaquo;</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer offsetTopS offsetBottomS">
+        <div class="container offsetTopS offsetBottomS">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <!-- Back to Top -->
+                    <a class="to-top"><i class="fa fa-angle-up"></i></a>
+                    <!-- Copyright -->
+                    <span>2014 &copy; Prodo. All rights reserved.</span>
+                </div>
+                <div class="col-md-6 col-sm-6 social">
+                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Google Maps Support -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <!-- Other Scripts -->
+    <script src="js/retina.min.js"></script>
+    <script src="js/jquery.scrollto.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.mb.ytplayer.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <!-- Main Script -->
+    <script src="js/prodo.min.js"></script>
+  </body>
+</html>

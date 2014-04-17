@@ -1,0 +1,18 @@
+.offset-top {
+	margin-top: 70px;
+}
+.offset-top-small {
+	margin-top: 20px;
+}
+.offset-bottom-small {
+    margin-bottom: 20px;
+}
+p {
+	line-height: 1.8;
+}
+ul, ol {
+	line-height: 1.8;
+}
+body {
+	padding-bottom: 40px;
+}

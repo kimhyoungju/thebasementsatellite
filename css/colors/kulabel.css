@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/*** Variables ***/
+h1.colored,
+.h1.colored,
+h2.colored,
+.h2.colored,
+h3.colored,
+.h3.colored,
+h4.colored,
+.h4.colored,
+h5.colored,
+.h5.colored,
+h6.colored,
+.h6.colored {
+  color: #8abb93;
+}
+a {
+  color: #8abb93;
+}
+a:hover,
+a:focus {
+  color: #8abb93;
+}
+.page-loader .content .line .progress {
+  background-color: #8abb93;
+}
+.section header .icon.colored i {
+  color: #8abb93;
+}
+.section.parallax .parallax-overlay.colored,
+.section.video .parallax-overlay.colored,
+.section.parallax .video-overlay.colored,
+.section.video .video-overlay.colored {
+  background-color: rgba(138, 187, 147, 0.85);
+}
+.navbar .navbar-nav > li a:hover,
+.navbar .navbar-nav > li a:focus {
+  color: #8abb93 !important;
+}
+.navbar .navbar-nav > li.active > a {
+  color: #8abb93 !important;
+}
+.navbar .navbar-toggle:hover .icon-bar {
+  background-color: #8abb93;
+}
+.navbar .navbar-collapse:not(.in):not(.collapsing) .navbar-nav > li.dropdown.open > a {
+  color: #8abb93;
+}
+.navbar .navbar-nav > li > .dropdown-menu li.active a {
+  color: #8abb93;
+}
+.navbar.three .navbar-nav > li > a:after,
+.navbar.four .navbar-nav > li > a:after,
+.navbar.six .navbar-nav > li > a:after {
+  background: #8abb93;
+}
+.navbar.seven .navbar-nav > li.active > a:after,
+.navbar.eight .navbar-nav > li.active > a:after,
+.navbar.nine .navbar-nav > li.active > a:after {
+  background: #8abb93;
+}
+.intro .content .video-preview .video-control i {
+  background-color: #8abb93;
+}
+.arrows .arrow i.fa:hover {
+  color: #8abb93 !important;
+}
+.services [class*=col]:hover i.fa {
+  color: #8abb93;
+}
+.services-alt [class*=col]:hover i.fa {
+  color: #8abb93;
+}
+.btn.btn-default {
+  background-color: #8abb93;
+}
+.btn.btn-default:hover,
+.btn.btn-default:focus {
+  background-color: #a1c8a8;
+}
+.btn.btn-link {
+  color: #8abb93;
+}
+.btn.btn-link:hover,
+.btn.btn-link:focus {
+  color: #a1c8a8;
+}
+.btn.btn-inverse {
+  color: #8abb93;
+}
+.btn.btn-inverse:hover,
+.btn.btn-inverse:focus {
+  border-color: #a1c8a8;
+  color: #a1c8a8;
+}
+input:focus,
+textarea:focus {
+  border-color: #8abb93;
+}
+input.notice,
+textarea.notice {
+  border-color: #8abb93 !important;
+}
+.portfolio-filters a:hover {
+  color: #8abb93;
+}
+.portfolio-filters a.active {
+  background-color: #8abb93 !important;
+}
+.portfolio-item .loading {
+  background-color: #8abb93;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #8abb93 !important;
+}
+.progress .progress-bar {
+  background-color: #8abb93;
+}
+.fa-li.colored {
+  color: #8abb93;
+}
+.dropcap {
+  color: #8abb93;
+}
+.dropcap.alt {
+  background-color: #8abb93;
+}
+.promotion-box {
+  border-left-color: #8abb93;
+}
+.promotion-box.line-top {
+  border-top-color: #8abb93;
+}
+.highlight,
+.highlight-dark {
+  background-color: #8abb93;
+}
+.sticker.default {
+  background-color: #8abb93;
+}
+.sticker.default:hover {
+  background-color: #aaceb1;
+}
+.icons-demo.colored i.fa,
+.stickers-demo.colored i.fa {
+  color: #8abb93;
+}
+.sidebar ul.menu li a:hover,
+.sidebar ul.menu li a:focus {
+  color: #8abb93;
+}
+.sidebar ul.links li a:hover,
+.sidebar ul.links li a:focus {
+  color: #8abb93;
+}
+.sidebar .tags .tag {
+  background-color: #8abb93;
+}
+.sidebar .tags .tag:hover,
+.sidebar .tags .tag:focus {
+  background-color: #a1c8a8;
+}
+.pages-navigation a:hover,
+.pages-navigation a:focus {
+  color: #8abb93;
+}
+.user-comment .details .info .author {
+  color: #8abb93;
+}
+.user-comment .details .reply a:hover,
+.user-comment .details .reply a:focus {
+  color: #8abb93;
+}
